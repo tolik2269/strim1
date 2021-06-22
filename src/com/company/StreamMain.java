@@ -11,8 +11,6 @@ public class StreamMain {
                 .filter(i -> i>0)
                 .filter(i -> i%2==0)
                 .sorted(Comparator.naturalOrder());
-
         System.out.println(stream);
-
     }
 }

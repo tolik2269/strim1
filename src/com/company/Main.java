@@ -10,12 +10,8 @@ public class Main {
         Collections.sort(intList);
         for (int e: intList){
             if (e>0 && e%2==0){
-
                 System.out.println(e);
             }
-
-               }
-
-
+        }
     }
 }
